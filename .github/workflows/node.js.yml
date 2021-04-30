@@ -21,4 +21,6 @@ jobs:
       with:
         browser: chrome
         headless: true
+        install-command: npm i
         start: npm start
+        wait-on: 'http://localhost:3000'
