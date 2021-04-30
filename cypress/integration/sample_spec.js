@@ -1,6 +1,6 @@
 describe("Google Search Page", () => {
     beforeEach(function () {
-        cy.visit("http://127.0.0.1:5500/google.html");
+        cy.visit("http://127.0.0.1:3000/google.html");
     });
 
     it("Should have an exernal CSS file", () => {
