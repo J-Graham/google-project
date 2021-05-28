@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ actions-testing ]
+    branches: [ project-main ]
   pull_request:
-    branches: [ actions-testing ]
+    branches: [ project-main ]
 
 jobs:
   cypress-test:
